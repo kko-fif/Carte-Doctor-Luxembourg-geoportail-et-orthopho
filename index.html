@@ -83,8 +83,9 @@ const markerByAddress=new Map();
 
 const map=L.map('map',{zoomControl:true}).setView([49.72,6.10],9);
 const osm=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
-const ortho=L.tileLayer.wms('https://wms.geoportail.lu/public_map_layers/service',{layers:'3207',format:'image/png',transparent:false,version:'1.1.1',attribution:'© ACT / Geoportail Luxembourg'});
-L.control.layers({'Carte classique':osm,'Orthophoto ACT':ortho},null,{collapsed:false}).addTo(map);
+const ortho=L.tileLayer('https://wmts1.geoportail.lu/opendata/wmts/ortho_2025/GLOBAL_WEBMERCATOR_4_V3/{z}/{x}/{y}.jpeg',{minZoom:0,maxZoom:20,maxNativeZoom:20,tileSize:256,attribution:'© Administration du Cadastre et de la Topographie · Geoportail Luxembourg'});
+const orthoHiver=L.tileLayer('https://wmts1.geoportail.lu/opendata/wmts/ortho_2025_winter/GLOBAL_WEBMERCATOR_4_V3/{z}/{x}/{y}.jpeg',{minZoom:0,maxZoom:20,maxNativeZoom:20,tileSize:256,attribution:'© Administration du Cadastre et de la Topographie · Geoportail Luxembourg'});
+L.control.layers({'Carte classique':osm,'Orthophoto ACT 2025 (été)':ortho,'Orthophoto ACT 2025 (hiver)':orthoHiver},null,{collapsed:false}).addTo(map);
 const markerLayer=L.layerGroup().addTo(map);
 
 const norm=s=>(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
