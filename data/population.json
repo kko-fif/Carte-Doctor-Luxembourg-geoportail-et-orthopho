@@ -1,0 +1,14 @@
+{
+  "source": "STATEC / CTIE - DF_B1102",
+  "year": 2026,
+  "total": 690959,
+  "tranches": [
+    {"tranche": "0-14", "population": 107259},
+    {"tranche": "15-24", "population": 75585},
+    {"tranche": "25-44", "population": 215714},
+    {"tranche": "45-54", "population": 96911},
+    {"tranche": "55-64", "population": 88505},
+    {"tranche": "65-74", "population": 59041},
+    {"tranche": "75+", "population": 47944}
+  ]
+}
