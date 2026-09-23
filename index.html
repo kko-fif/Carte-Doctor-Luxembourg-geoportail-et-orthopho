@@ -1,1 +1,203 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Les centres médicaux au Luxembourg</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header class="header">
+  <img class="logo" src="assets/logo-groupe-medical.png" alt="Groupe Médical Des Scillas" />
+  <div class="header-copy">
+    <h1>Les centres médicaux au Luxembourg</h1>
+    <p>Offre de soins, spécialités médicales &amp; démographie</p>
+  </div>
+  <div class="updated">V1 · Doctena 2026<br>Population : STATEC 2026</div>
+</header>
+
+<main class="container">
+  <section class="kpis">
+    <div class="kpi"><div class="label">Médecins uniques</div><div class="value" id="kpiDoctors">—</div></div>
+    <div class="kpi"><div class="label">Centres / adresses</div><div class="value" id="kpiAddresses">—</div></div>
+    <div class="kpi"><div class="label">Communes couvertes</div><div class="value" id="kpiCommunes">—</div></div>
+    <div class="kpi"><div class="label">Spécialités Doctena</div><div class="value" id="kpiSpecs">—</div></div>
+  </section>
+
+  <section class="filters">
+    <input id="search" type="search" placeholder="Rechercher un médecin, une adresse…" />
+    <select id="specFilter"><option value="">Toutes les spécialités</option></select>
+    <select id="communeFilter"><option value="">Toutes les communes</option></select>
+    <button id="resetBtn" type="button">Réinitialiser</button>
+  </section>
+
+  <section class="map-card">
+    <div class="map-top">
+      <div><strong>Carte</strong> · 1 point = 1 adresse médicale</div>
+      <div style="display:flex;align-items:center;gap:10px"><span id="geoText">Préparation du géocodage…</span><div class="progress"><span id="geoProgress"></span></div></div>
+    </div>
+    <div id="map"></div>
+  </section>
+
+  <section class="grid2">
+    <article class="card">
+      <h2>Évolution par spécialité</h2>
+      <div class="sub">STATEC 2011–2017 vs Doctena 2026 (collecte partielle, non exhaustive)</div>
+      <div style="padding:0 18px 6px"><select id="chartSpec" style="height:36px;border:1px solid #dce5ef;border-radius:8px;padding:0 10px"></select></div>
+      <div class="chart-wrap"><canvas id="specialityChart"></canvas></div>
+    </article>
+    <article class="card">
+      <h2>Population résidente par âge</h2>
+      <div class="sub">STATEC / CTIE · 1er janvier 2026 · total 690 959 habitants</div>
+      <div class="chart-wrap"><canvas id="populationChart"></canvas></div>
+    </article>
+  </section>
+
+  <section class="card table-card">
+    <div class="table-head">
+      <div><h2>Liste des médecins</h2><small id="tableCount">—</small></div>
+      <small>Cliquez sur une ligne pour centrer la carte sur son adresse.</small>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Nom</th><th>Spécialité</th><th>Adresse</th><th>Commune</th><th>Recommandations Doctena</th><th>Recommandation commerciale</th></tr></thead>
+        <tbody id="doctorRows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="source-note">
+    <strong>Sources et méthodologie.</strong> Doctena 2026 : collecte partielle, non exhaustive, utilisée pour les praticiens, spécialités, adresses et recommandations visibles sur Doctena. STATEC / CTIE : population 2026 et série historique officielle DF_C3114. Geoportail Luxembourg / ACT : géocodage et orthophoto. Les données Doctena 2026 ne constituent pas une continuation officielle de la série STATEC.
+  </div>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script>
+const BRAND_LIGHT='#8caed6', BRAND_DARK='#1a2b4c';
+let doctors=[], population=null, statec=null, filtered=[];
+let specialityChart, populationChart;
+const geocodes=new Map();
+const markerByAddress=new Map();
+
+const map=L.map('map',{zoomControl:true}).setView([49.72,6.10],9);
+const osm=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
+const ortho=L.tileLayer.wms('https://wms.geoportail.lu/public_map_layers/service',{layers:'3207',format:'image/png',transparent:false,version:'1.1.1',attribution:'© ACT / Geoportail Luxembourg'});
+L.control.layers({'Carte classique':osm,'Orthophoto ACT':ortho},null,{collapsed:false}).addTo(map);
+const markerLayer=L.layerGroup().addTo(map);
+
+const norm=s=>(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const addressKey=d=>d.adresse.trim();
+
+async function loadData(){
+  [doctors,population,statec]=await Promise.all([
+    fetch('data/medecins.json').then(r=>r.json()),
+    fetch('data/population.json').then(r=>r.json()),
+    fetch('data/statec_specialites.json').then(r=>r.json())
+  ]);
+  filtered=[...doctors];
+  initFilters(); renderKPIs(); renderTable(); renderCharts();
+  startGeocoding();
+}
+
+function initFilters(){
+  const specs=[...new Set(doctors.map(d=>d.specialite_groupe))].sort((a,b)=>a.localeCompare(b,'fr'));
+  const communes=[...new Set(doctors.map(d=>d.commune))].sort((a,b)=>a.localeCompare(b,'fr'));
+  document.getElementById('specFilter').innerHTML='<option value="">Toutes les spécialités</option>'+specs.map(s=>`<option>${esc(s)}</option>`).join('');
+  document.getElementById('communeFilter').innerHTML='<option value="">Toutes les communes</option>'+communes.map(s=>`<option>${esc(s)}</option>`).join('');
+  const chartOptions=Object.keys(statec.series).map(s=>`<option>${esc(s)}</option>`).join('');
+  document.getElementById('chartSpec').innerHTML=chartOptions;
+  document.getElementById('chartSpec').value='Médecine générale';
+  ['search','specFilter','communeFilter'].forEach(id=>document.getElementById(id).addEventListener(id==='search'?'input':'change',applyFilters));
+  document.getElementById('resetBtn').addEventListener('click',()=>{document.getElementById('search').value='';document.getElementById('specFilter').value='';document.getElementById('communeFilter').value='';applyFilters();});
+  document.getElementById('chartSpec').addEventListener('change',renderSpecialityChart);
+}
+
+function renderKPIs(){
+  document.getElementById('kpiDoctors').textContent=new Set(doctors.map(d=>norm(d.nom))).size;
+  document.getElementById('kpiAddresses').textContent=new Set(doctors.map(addressKey)).size;
+  document.getElementById('kpiCommunes').textContent=new Set(doctors.map(d=>d.commune)).size;
+  document.getElementById('kpiSpecs').textContent=new Set(doctors.map(d=>d.specialite)).size;
+}
+
+function applyFilters(){
+  const q=norm(document.getElementById('search').value);
+  const sp=document.getElementById('specFilter').value;
+  const co=document.getElementById('communeFilter').value;
+  filtered=doctors.filter(d=>(!q||norm(d.nom+' '+d.adresse+' '+d.specialite).includes(q))&&(!sp||d.specialite_groupe===sp)&&(!co||d.commune===co));
+  renderTable(); renderMarkers();
+}
+
+function renderTable(){
+  const body=document.getElementById('doctorRows');
+  document.getElementById('tableCount').textContent=`${filtered.length} fiche${filtered.length>1?'s':''} affichée${filtered.length>1?'s':''}`;
+  body.innerHTML=filtered.map(d=>`<tr data-id="${d.id}"><td><strong>${esc(d.nom)}</strong></td><td><span class="badge">${esc(d.specialite)}</span></td><td>${esc(d.adresse)}</td><td>${esc(d.commune)}</td><td>${d.recommandations_doctena??'<span class="badge missing">—</span>'}</td><td>À définir</td></tr>`).join('');
+  body.querySelectorAll('tr').forEach(tr=>tr.addEventListener('click',()=>focusDoctor(tr.dataset.id)));
+}
+
+function focusDoctor(id){
+  const d=doctors.find(x=>x.id===id); if(!d)return;
+  const g=geocodes.get(addressKey(d)); if(!g)return;
+  map.setView([g.lat,g.lon],17); const m=markerByAddress.get(addressKey(d)); if(m)m.openPopup();
+}
+
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+
+function groupFilteredByAddress(){
+  const m=new Map(); for(const d of filtered){const k=addressKey(d);if(!m.has(k))m.set(k,[]);m.get(k).push(d);} return m;
+}
+
+function renderMarkers(){
+  markerLayer.clearLayers(); markerByAddress.clear();
+  const grouped=groupFilteredByAddress(); const pts=[];
+  for(const [addr,list] of grouped){
+    const g=geocodes.get(addr); if(!g)continue;
+    const popup=`<div class="popup-title">${list.length} médecin${list.length>1?'s':''}</div><div class="popup-address">${esc(addr)} · ${esc(list[0].commune)}</div><table class="popup-table"><thead><tr><th>Médecin</th><th>Spécialité</th><th>Reco.</th></tr></thead><tbody>${list.map(d=>`<tr><td>${esc(d.nom)}</td><td>${esc(d.specialite)}</td><td>${d.recommandations_doctena??'—'}</td></tr>`).join('')}</tbody></table>`;
+    const radius=Math.min(15,6+Math.log2(list.length+1)*2.3);
+    const m=L.circleMarker([g.lat,g.lon],{radius,weight:2,color:BRAND_DARK,fillColor:BRAND_LIGHT,fillOpacity:.82}).bindPopup(popup,{maxWidth:540});
+    m.addTo(markerLayer); markerByAddress.set(addr,m); pts.push([g.lat,g.lon]);
+  }
+  if(pts.length && (document.getElementById('specFilter').value||document.getElementById('communeFilter').value||document.getElementById('search').value)) map.fitBounds(pts,{padding:[30,30],maxZoom:13});
+}
+
+async function startGeocoding(){
+  const addresses=[...new Set(doctors.map(addressKey))];
+  const cached=JSON.parse(localStorage.getItem('gm_geo_cache_v1')||'{}');
+  for(const [k,v] of Object.entries(cached)){if(v&&v.lat&&v.lon)geocodes.set(k,v);}
+  renderMarkers();
+  let done=geocodes.size, index=0;
+  updateGeo(done,addresses.length);
+  const pending=addresses.filter(a=>!geocodes.has(a));
+  const worker=async()=>{while(index<pending.length){const addr=pending[index++];try{const g=await geocode(addr);if(g){geocodes.set(addr,g);cached[addr]=g;}}catch(e){}done++;updateGeo(done,addresses.length);if(done%10===0){localStorage.setItem('gm_geo_cache_v1',JSON.stringify(cached));renderMarkers();}await new Promise(r=>setTimeout(r,120));}};
+  await Promise.all(Array.from({length:5},worker));
+  localStorage.setItem('gm_geo_cache_v1',JSON.stringify(cached)); renderMarkers(); updateGeo(addresses.length,addresses.length);
+}
+
+async function geocode(addr){
+  const url='https://apiv4.geoportail.lu/geocode/search?queryString='+encodeURIComponent(addr);
+  const r=await fetch(url); if(!r.ok)throw new Error('geo'); const data=await r.json();
+  const x=data.results&&data.results[0]; if(!x||!x.geomlonlat)return null;
+  return {lon:+x.geomlonlat.coordinates[0],lat:+x.geomlonlat.coordinates[1],accuracy:x.accuracy??null,ratio:x.ratio??null,name:x.name??addr};
+}
+function updateGeo(done,total){document.getElementById('geoText').textContent=`Géocodage ${done}/${total}`;document.getElementById('geoProgress').style.width=(total?done/total*100:0)+'%';}
+
+function renderCharts(){renderPopulationChart();renderSpecialityChart();}
+function renderPopulationChart(){
+  const ctx=document.getElementById('populationChart');
+  populationChart=new Chart(ctx,{type:'bar',data:{labels:population.tranches.map(x=>x.tranche),datasets:[{label:'Population',data:population.tranches.map(x=>x.population),backgroundColor:BRAND_LIGHT,borderColor:BRAND_DARK,borderWidth:1}]},options:{maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,ticks:{callback:v=>new Intl.NumberFormat('fr-FR',{notation:'compact'}).format(v)}}}}});
+}
+function renderSpecialityChart(){
+  const spec=document.getElementById('chartSpec').value||'Médecine générale'; const hist=statec.series[spec]||{};
+  const years=['2011','2012','2013','2014','2015','2016','2017','2026'];
+  const unique2026=new Set(doctors.filter(d=>d.specialite_groupe===spec || (spec==='Endocrinologie'&&d.specialite_groupe==='Endocrinologie / diabétologie')).map(d=>norm(d.nom))).size;
+  const stData=years.map(y=>y==='2026'?null:(hist[y]??null)); const docData=years.map(y=>y==='2026'?unique2026:null);
+  if(specialityChart)specialityChart.destroy();
+  specialityChart=new Chart(document.getElementById('specialityChart'),{type:'line',data:{labels:years,datasets:[{label:'STATEC officiel',data:stData,borderColor:BRAND_DARK,backgroundColor:BRAND_DARK,tension:.25,spanGaps:false},{label:'Doctena 2026 · partiel',data:docData,borderColor:BRAND_LIGHT,backgroundColor:BRAND_LIGHT,pointRadius:7,showLine:false}]},options:{maintainAspectRatio:false,plugins:{legend:{position:'bottom'}},scales:{y:{beginAtZero:true,title:{display:true,text:'Nombre de médecins'}}}}});
+}
+
+loadData().catch(err=>{console.error(err);document.body.insertAdjacentHTML('beforeend','<div style="position:fixed;bottom:20px;left:20px;right:20px;background:#7a271a;color:white;padding:14px;border-radius:10px;z-index:9999">Erreur de chargement des données. Vérifiez que les fichiers du dossier data/ sont bien publiés.</div>');});
+</script>
+</body>
+</html>
 
