@@ -1,0 +1,363 @@
+﻿ID_ETABLISSEMENT;Adresse;Commune;Code_postal;Implantations;Concordance_classeur;ID_a_revoir;Position;Adresse_ACT;Latitude;Longitude
+ETA-000001;1, Marbuergerstrooss, 9764 Marnach;Clervaux;L-9764;1;Concordant;;Validé automatiquement;1, Marbuergerstrooss 9764 Marnach;50.051681415;6.072241721
+ETA-000002;1 pl. Ste Cunégonde, L-1367 Luxembourg-Clausen;Luxembourg;L-1367;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000003;1, Rue D'eich, 1461 Luxembourg;Luxembourg;L-1461;1;Concordant;;Validé automatiquement;1, Rue d'Eich 1461 Luxembourg;49.628253969;6.130239498
+ETA-000004;1 Rue De Bonnevoie, 1260 Luxembourg;Luxembourg;L-1260;1;Concordant;;Validé automatiquement;1, Rue de Bonnevoie 1260 Luxembourg;49.603146204;6.13328783
+ETA-000005;1 Rue De L'hôpital, 8423 Steinfort;Steinfort;L-8423;1;Concordant;;Validé automatiquement;1, Rue de l'Hôpital 8423 Steinfort;49.660918889;5.912767982
+ETA-000006;1, Rue de Mathias Goergen, 8028 Strassen;Strassen;L-8028;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000007;1 Rue Des Artisans, 4017 Esch-sur-Alzette;Esch-sur-Alzette;L-4017;1;Concordant;;Validé automatiquement;1, Rue des Artisans 4017 Esch-sur-Alzette;49.496105019;5.984176202
+ETA-000008;1 Rue Des Capucines, 8043 Strassen;Strassen;L-8043;1;Concordant;;Validé automatiquement;1, Rue des Capucines 8043 Strassen;49.621024539;6.072931049
+ETA-000009;1 Rue Des Glacis, 1628 Luxembourg-Limpertsberg;Luxembourg;L-1628;3;Concordant;;Validé automatiquement;1, Rue des Glacis 1628 Luxembourg;49.619178173;6.12569727
+ETA-000010;1 Rue Enz, 5532 Remich;Remich;L-5532;2;Variante typographique;IMP-000336;Validé automatiquement;1, Rue Enz 5532 Remich;49.544444887;6.368090883
+ETA-000011;1 Rue Henri Kirpach, 8237 Mamer;Mamer;L-8237;1;Concordant;;Validé automatiquement;1, Rue Henri Kirpach 8237 Mamer;49.629524009;6.020742711
+ETA-000012;1, Rue John Castegnaro (3ième Étage), L-4639 Differdange;Differdange;L-4639;1;Concordant;;Validé automatiquement;1, Rue John Castegnaro 4639 Differdange;49.520116486;5.900282741
+ETA-000013;1, Rue Philippe II (4ème étage), 2340 Luxembourg;Luxembourg;L-2340;1;Concordant;;Validé automatiquement;1, Rue Philippe II 2340 Luxembourg;49.611956007;6.128210765
+ETA-000014;1, Val Sainte-Croix, 1371 Luxembourg;Luxembourg;L-1371;21;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000015;10-12, rue Léon Thyes, L- 2636 Luxembourg-Kirchberg;Luxembourg;L-2636;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000016;10 Rue André Duchscher, 1424 Luxembourg;Luxembourg;L-1424;1;Concordant;;Validé automatiquement;10, Rue André Duchscher 1424 Luxembourg;49.602858051;6.130860823
+ETA-000017;10, rue de Cessange, L-1320 Luxembourg-Hollerich;Luxembourg;L-1320;1;Concordant;;Validé automatiquement;10, Rue de Cessange 1320 Luxembourg;49.59751536;6.116641788
+ETA-000018;10, Rue De Moutfort, 5355 Oetrange;Contern;L-5355;3;Variante typographique;IMP-000558;Validé automatiquement;10, Rue de Moutfort 5355 Oetrange;49.599834283;6.258955274
+ETA-000019;10, rue G.D. Charlotte, L-9515 Wiltz;Wiltz;L-9515;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000020;102, Av. Salentiny, L-9080 Ettelbruck;Ettelbruck;L-9080;2;Variante typographique;IMP-000603;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000021;103a Boulevard John F. Kennedy, 4930 Bascharage;Käerjeng;L-4930;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000022;106-108, Route D'arlon, 8010 Strassen;Strassen;L-8010;2;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000023;106, Route d'Arlon, L-8010 Strassen;Strassen;L-8010;2;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000024;107 Rue De Mühlenbach, 2168 Luxembourg;Luxembourg;L-2168;6;Concordant;;Validé automatiquement;107, Rue de Mühlenbach 2168 Luxembourg;49.62814041;6.122443671
+ETA-000025;11-13 Rue Jean Fischbach, 3372 Leudelange;Leudelange;L-3372;3;Variante typographique;IMP-000028,IMP-000114;Adresse ou numéro ambigu;;;
+ETA-000026;110, Route D'arlon, L-8210 Mamer;Mamer;L-8210;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000027;113 Route De Luxembourg, 7241 Bereldange;Walferdange;L-7241;1;Concordant;;Validé automatiquement;113, Route de Luxembourg 7241 Bereldange;49.650257399;6.127882409
+ETA-000028;11a, Avenue De La Porte-Neuve, 2. Etage, 2227 Luxembourg;Luxembourg;L-2227;1;Concordant;;Validé automatiquement;11A, Avenue de la Porte-Neuve 2227 Luxembourg;49.612535186;6.127989341
+ETA-000029;11a Boulevard Joseph II, 1840 Luxembourg;Luxembourg;L-1840;1;Concordant;;Validé automatiquement;11A, Boulevard Joseph II 1840 Luxembourg;49.60958979;6.120350724
+ETA-000030;11a Boulevard Prince Henri, 1724 Luxembourg;Luxembourg;L-1724;1;Concordant;;Validé automatiquement;11A, Boulevard Prince Henri 1724 Luxembourg;49.611989347;6.124325234
+ETA-000031;12-16, Avenue Monterey, 2163 Luxembourg;Luxembourg;L-2163;3;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000032;12, avenue Victor Hugo, L-1750 Luxembourg-Limpertsberg;Luxembourg;L-1750;1;Concordant;;Validé automatiquement;12, Avenue Victor Hugo 1750 Luxembourg;49.619074444;6.124558108
+ETA-000033;12, bd GrandeDuchesse Charlotte, L-9024 Ettelbruck;Ettelbruck;L-9024;5;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000034;12, Rue De La Gare, 3377 Leudelange;Leudelange;L-3377;1;Concordant;;Validé automatiquement;12, Rue de la Gare 3377 Leudelange;49.568887825;6.065030424
+ETA-000035;12, Rue Jean Engling, 1466 Luxembourg;Luxembourg;L-1466;1;Concordant;;Validé automatiquement;12, Rue Jean Engling 1466 Luxembourg;49.640122004;6.147688205
+ETA-000036;12, rue Principale, 5240 Sandweiler;Sandweiler;L-5240;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000037;120, Av. Lucien Salentiny, L-9080 Ettelbruck;Ettelbruck;L-9080;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000038;120, avenue Salentiny, L-9080 Ettelbruck;Ettelbruck;L-9080;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000039;121/127 Avenue de Luxembourg, 4940 Bascharage;Käerjeng;L-4940;8;Variante typographique;IMP-000030,IMP-000252,IMP-000289,IMP-000303,IMP-000464,IMP-000520;Adresse ou numéro ambigu;;;
+ETA-000040;121A, Route d'Arlon, L-1150 Luxembourg;Luxembourg;L-1150;1;Concordant;;Validé automatiquement;121A, Route d'Arlon 1150 Luxembourg;49.614483563;6.109804664
+ETA-000041;121C Route D'Arlon, 1150 Luxembourg;Luxembourg;L-1150;1;Concordant;;Validé automatiquement;121C, Route d'Arlon 1150 Luxembourg;49.614381375;6.109319083
+ETA-000042;121D, route d’Arlon, 1150 Luxembourg;Luxembourg;L-1150;2;Variante typographique;IMP-000457;Validé automatiquement;121D, Route d'Arlon 1150 Luxembourg;49.614559356;6.109385018
+ETA-000043;129, Rue De Strasbourg, L-2561 Luxembourg;Luxembourg;L-2561;1;Concordant;;Validé automatiquement;129, Rue de Strasbourg 2561 Luxembourg;49.599234113;6.123202803
+ETA-000044;129 rue des Aubépines, 1145 Luxembourg-Belair;Luxembourg;L-1145;1;Concordant;;Validé automatiquement;129, Rue des Aubépines 1145 Luxembourg;49.612571903;6.097420286
+ETA-000045;13, Route De Luxembourg, 4760 Pétange;Pétange;L-4760;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000046;13, Rue De Flaxweiler, 6776 Grevenmacher;Grevenmacher;L-6776;4;Concordant;;Validé automatiquement;13, Rue de Flaxweiler 6776 Grevenmacher;49.676751126;6.392170984
+ETA-000047;13, rue du Verger, L-2665 Luxembourg;Luxembourg;L-2665;1;Concordant;;Validé automatiquement;13, Rue du Verger 2665 Luxembourg;49.602263927;6.137813768
+ETA-000048;13 Rue Evy Friedrich, 1552 Luxembourg;Luxembourg;L-1552;1;Concordant;;Validé automatiquement;13, Rue Evy Friedrich 1552 Luxembourg;49.592499093;6.115756894
+ETA-000049;13 Rue Jean-Pierre Sauvage, 2514 Luxembourg;Luxembourg;L-2514;1;Concordant;;Validé automatiquement;13, Rue Jean-Pierre Sauvage 2514 Luxembourg;49.624562031;6.138205887
+ETA-000050;130, Rue de Rollingergrund, L-2440 Luxembourg-Rollingergrund;Luxembourg;L-2440;1;Concordant;;Validé automatiquement;130, Rue de Rollingergrund 2440 Luxembourg;49.617429187;6.113202752
+ETA-000051;131, Rue de Rollingergrund, L-2440 Luxembourg;Luxembourg;L-2440;4;Concordant;;Validé automatiquement;131, Rue de Rollingergrund 2440 Luxembourg;49.617206671;6.113155568
+ETA-000052;13a, avenue Guillaume, L-1651 Luxembourg;Luxembourg;L-1651;1;Concordant;;Validé automatiquement;13A, Avenue Guillaume 1651 Luxembourg;49.60649511;6.118316091
+ETA-000053;13A, rue Astrid, L-1143 Luxembourg-Belair;Luxembourg;L-1143;4;Concordant;;Validé automatiquement;13A, Rue Astrid 1143 Luxembourg;49.607644922;6.106118803
+ETA-000054;13c, Fausermillen - Ökopark, 6689 Mertert;Mertert;L-6689;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000055;14, Route De Luxembourg, 3253 Bettembourg;Bettembourg;L-3253;1;Concordant;;Validé automatiquement;14, Route de Luxembourg 3253 Bettembourg;49.519911877;6.100478738
+ETA-000056;14, Rue Beck, L-1222 Luxembourg-Centre Ville;Luxembourg;L-1222;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000057;14, Rue De L'école, 8352 Dahlem;Garnich;L-8352;1;Concordant;;Validé automatiquement;14, Rue de l'Ecole 8352 Dahlem;49.599622372;5.946485054
+ETA-000058;14, Rue Prince Jean, 9052 Ettelbruck;Ettelbruck;L-9052;3;Variante typographique;IMP-000297;Validé automatiquement;14, Rue Prince Jean 9052 Ettelbruck;49.849187494;6.102043463
+ETA-000059;14, Rue Principale, L-5240 Sandweiler;Sandweiler;L-5240;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000060;147, Rue De L'alzette, 4011 Esch-sur-Alzette;Esch-sur-Alzette;L-4011;2;Concordant;;Validé automatiquement;147, Rue de l'Alzette 4011 Esch-sur-Alzette;49.491862911;5.975738247
+ETA-000061;15, Avenue De La Gare, 4131 Esch-sur-Alzette;Esch-sur-Alzette;L-4131;1;Concordant;;Validé automatiquement;15, Avenue de la Gare 4131 Esch-sur-Alzette;49.493880506;5.983234826
+ETA-000062;15, rue Guillaume, L-9237 Diekirch;Diekirch;L-9237;3;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000063;15 rue Michel Rodange L-4640 Differdange;Differdange;L-4640;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000064;15, Rue Michel Rodange, 4660 Differdange;Differdange;L-4660;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000065;155 Avenue Lucien Salentiny, 9080 Ettelbruck;Ettelbruck;L-9080;2;Concordant;;Validé automatiquement;155, Avenue Lucien Salentiny 9080 Ettelbruck;49.852830932;6.094257087
+ETA-000066;15b Boulevard Grande-Duchesse Charlotte, 1331 Luxembourg;Luxembourg;L-1331;1;Concordant;;Validé automatiquement;15B, Boulevard Grande-Duchesse Charlotte 1331 Luxembourg;49.60746835;6.119648542
+ETA-000067;16-18 Rue Des Tondeurs, 9570 Wiltz;Wiltz;L-9570;2;À vérifier manuellement;IMP-000022;Adresse ou numéro ambigu;;;
+ETA-000068;16, Avenue De La Porte-Neuve, 2227 Luxembourg;Luxembourg;L-2227;1;Concordant;;Validé automatiquement;16, Avenue de la Porte-Neuve 2227 Luxembourg;49.612798618;6.128243477
+ETA-000069;16, avenue Salentiny, L-9080 Ettelbruck;Ettelbruck;L-9080;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000070;16, Esplanade De La Moselle, 6637 Wasserbillig;Mertert;L-6637;1;Concordant;;Validé automatiquement;16, Esplanade de la Moselle 6637 Wasserbillig;49.713395894;6.502027732
+ETA-000071;16, Place de la Libération, L-9060 Ettelbruck;Ettelbruck;L-9060;1;Concordant;;Validé automatiquement;16, Place de la Libération 9060 Ettelbruck;49.8469252;6.099005991
+ETA-000072;16, rue JP Koenig, L-1865 Luxembourg-Limpertsberg;Luxembourg;L-1865;2;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000073;161 Avenue Lucien Salentiny, 9080 Ettelbruck;Ettelbruck;L-9080;2;Concordant;;Validé automatiquement;161, Avenue Lucien Salentiny 9080 Ettelbruck;49.852960842;6.093851494
+ETA-000074;169 Route d'Esch, L-1471 Luxembourg-Gasperich;Luxembourg;L-1471;1;Concordant;;Validé automatiquement;169, Route d'Esch 1471 Luxembourg;49.593986363;6.117406967
+ETA-000075;169, Route De Burange, 3429 Dudelange;Dudelange;L-3429;1;Concordant;;Validé automatiquement;169, Route de Burange 3429 Dudelange;49.490097513;6.086708759
+ETA-000076;16b Cité Herrenberg, 6679 Mertert;Mertert;L-6679;1;Concordant;;Validé automatiquement;16B, Cité Herrenberg 6679 Mertert;49.707558609;6.486832188
+ETA-000077;17, avenue Charlotte, L-4530 Differdange;Differdange;L-4530;3;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000078;17, avenue des Allies, L-9012 Ettelbruck;Ettelbruck;L-9012;1;Concordant;;Validé automatiquement;17, Avenue des Alliés 9012 Ettelbruck;49.842014145;6.099201594
+ETA-000079;17, Rue De Bergem, 4029 Esch-sur-Alzette;Esch-sur-Alzette;L-4029;2;Concordant;;Validé automatiquement;17, Rue de Bergem 4029 Esch-sur-Alzette;49.512034323;5.993760845
+ETA-000080;17, Rue de Consdorf, L-6551 Berdorf;Berdorf;L-6551;2;Concordant;;Validé automatiquement;17, Rue de Consdorf 6551 Berdorf;49.820061969;6.348592111
+ETA-000081;17, rue des Alliés, L-9002 Ettelbruck;Ettelbruck;L-9002;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000082;17 Rue des Bains, 1212 Luxembourg;Luxembourg;L-1212;2;Variante typographique;IMP-000459;Validé automatiquement;17, Rue des Bains 1212 Luxembourg;49.61327461;6.128352211
+ETA-000083;17, Rue Jean-Pierre Sauvage, 2514 Luxembourg;Luxembourg;L-2514;1;Concordant;;Validé automatiquement;17, Rue Jean-Pierre Sauvage 2514 Luxembourg;49.624029512;6.138030458
+ETA-000084;173 Route D'arlon, 8009 Strassen;Strassen;L-8009;1;Concordant;;Validé automatiquement;173, Route d'Arlon 8009 Strassen;49.619668307;6.074702756
+ETA-000085;177, rue de Luxembourg, L-4222 Esch-sur-Alzette;Esch-sur-Alzette;L-4222;2;Concordant;;Validé automatiquement;177, Rue de Luxembourg 4222 Esch-sur-Alzette;49.506197277;5.988152663
+ETA-000086;178, rue Principale, L-5480 Wormeldange;Wormeldange;L-5480;1;Concordant;;Validé automatiquement;178, Rue Principale 5480 Wormeldange;49.612422457;6.408107292
+ETA-000087;18-20, avenue de la Gare, L-4131 Esch-sur-Alzette;Esch-sur-Alzette;L-4131;2;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000088;18, Im Dahl, 9759 Knaphoscheid;Wiltz;L-9759;1;Concordant;;Validé automatiquement;18, Im Dahl 9759 Knaphoscheid;50.016837831;5.967415465
+ETA-000089;18 Rue Charles Darwin, 1433 Luxembourg;Luxembourg;L-1433;1;Concordant;;Validé automatiquement;18, Rue Charles Darwin 1433 Luxembourg;49.585145376;6.124338664
+ETA-000090;18, Rue De La Chapelle, 8017 Strassen;Strassen;L-8017;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000091;18 Rue Henri Kirpach, 8237 Mamer;Mamer;L-8237;1;Concordant;;Validé automatiquement;18, Rue Henri Kirpach 8237 Mamer;49.630645252;6.021237052
+ETA-000092;185 Route De Thionville, 2611 Luxembourg;Luxembourg;L-2611;1;Concordant;;Validé automatiquement;185, Route de Thionville 2611 Howald;49.587259851;6.143176923
+ETA-000093;185, rue de Warken, L-9088 Ettelbruck;Ettelbruck;L-9088;1;Concordant;;Validé automatiquement;185, Rue de Warken 9088 Ettelbruck;49.852185571;6.093304928
+ETA-000094;187 Avenue De La Liberté, 4602 Niederkorn;Differdange;L-4602;3;Variante typographique;IMP-000358,IMP-000563;Validé automatiquement;187, Avenue de la Liberté 4602 Niederkorn;49.532499989;5.886306544
+ETA-000095;189, route de Longwy, L-1941 Luxembourg-Merl;Luxembourg;L-1941;2;Concordant;;Validé automatiquement;189, Route de Longwy 1941 Luxembourg;49.605832626;6.103989794
+ETA-000096;19 Avenue Des Bains, 5610 Mondorf-les-Bains;Mondorf-les-Bains;L-5610;1;Concordant;;Validé automatiquement;19, Avenue des Bains 5610 Mondorf-les-Bains;49.503080764;6.280344386
+ETA-000097;19, Route De Luxembourg, 3253 Bettembourg;Bettembourg;L-3253;1;Concordant;;Validé automatiquement;19, Route de Luxembourg 3253 Bettembourg;49.520153523;6.09965185
+ETA-000098;19 Route De Stadtbredimus, 5570 Remich;Remich;L-5570;1;Concordant;;Validé automatiquement;19, Route de Stadtbredimus 5570 Remich;49.549769139;6.377020151
+ETA-000099;19, rue Pierre Olinger, L-9264 Diekirch;Diekirch;L-9264;1;Concordant;;Validé automatiquement;19, Rue Pierre Olinger 9264 Diekirch;49.863156359;6.162302014
+ETA-000100;19, Rue Rudi Herber, 1749 Howald;Hesperange;L-1749;1;Concordant;;Validé automatiquement;19, Rue Rudi Herber 1749 Howald;49.583175218;6.145345414
+ETA-000101;195-197, Rue De Differdange, 4438 Soleuvre;Sanem;L-4438;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000102;198a, avenue de la Liberté, L-4602 Niederkorn;Differdange;L-4602;1;Concordant;;Validé automatiquement;198A, Avenue de la Liberté 4602 Niederkorn;49.533586376;5.890624471
+ETA-000103;1a, Millewee, 7257 Helmsange;Walferdange;L-7257;3;Concordant;;Validé automatiquement;1A, Millewee 7257 Helmsange;49.667961238;6.134249952
+ETA-000104;1a, Route De L'europe, 5531 Remich;Remich;L-5531;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000105;2.-4, Avenue Du X Septembre, L-2550 Luxembourg;Luxembourg;L-2550;1;Concordant;;Validé automatiquement;2, Avenue du Dix Septembre 2550 Luxembourg;49.609693227;6.119057553
+ETA-000106;2, An Arzemt, 3928 Mondercange;Mondercange;L-3928;1;Concordant;;Validé automatiquement;2, An Arzemt 3928 Mondercange;49.528497873;5.986168789
+ETA-000107;2, Place De Paris, 2314 Luxembourg;Luxembourg;L-2314;1;Concordant;;Validé automatiquement;2, Place de Paris 2314 Luxembourg;49.60395766;6.131322092
+ETA-000108;2, rue Alsbach, L-6213 Consdorf;Consdorf;L-6213;1;Concordant;;Validé automatiquement;2, Rue Alsbach 6213 Consdorf;49.783283001;6.336812619
+ETA-000109;2, Rue De Drusenheim, 3884 Schifflange;Schifflange;L-3884;2;Variante typographique;IMP-000611;Validé automatiquement;2, Rue de Drusenheim 3884 Schifflange;49.507973732;6.011079577
+ETA-000110;2, rue de l'Eau, L-9225 Diekirch;Diekirch;L-9225;1;Concordant;;Validé automatiquement;2, Rue de l'Eau 9225 Diekirch;49.869154931;6.158758883
+ETA-000111;2 rue de la Croix, L-3823 Schifflange;Schifflange;L-3823;2;Concordant;;Validé automatiquement;2, Rue de la Croix 3823 Schifflange;49.504951078;6.009343269
+ETA-000112;2, rue de la Gare, 6731 Grevenmacher;Grevenmacher;L-6731;2;À vérifier manuellement;IMP-000411;Validé automatiquement;2, Rue de la Gare 6731 Grevenmacher;49.679488063;6.445280665
+ETA-000113;2 Rue De Luxembourg, 7540 Rollingen;Mersch;L-7540;1;Concordant;;Validé automatiquement;2, Rue de Luxembourg 7540 Rollingen;49.747999595;6.111009603
+ETA-000114;2, Rue Du Commerce, 3450 Dudelange;Dudelange;L-3450;4;À vérifier manuellement;IMP-000393,IMP-000433;Validé automatiquement;2, Rue du Commerce 3450 Dudelange;49.479302808;6.085556069
+ETA-000115;2 Rue Edward Steichen, Bivange, L-3324 Bivange;Roeser;L-3324;1;Concordant;;Validé automatiquement;2, Rue Edward Steichen 3324 Bivange;49.543238498;6.137906836
+ETA-000116;2, rue Hiel, 5220 Sandweiler;Sandweiler;L-5220;1;Concordant;;Validé automatiquement;2, Rue Hiel 5220 Sandweiler;49.616861908;6.214664003
+ETA-000117;2, rue Jean Jaurès, L-3490 Dudelange;Dudelange;L-3490;1;Concordant;;Validé automatiquement;2, Rue Jean Jaurès 3490 Dudelange;49.479660337;6.085143894
+ETA-000118;2, Rue John Lennon, 4371 Belvaux;Sanem;L-4371;1;Concordant;;Validé automatiquement;2, Rue John Lennon 4371 Belvaux;49.50282869;5.942283589
+ETA-000119;2, Rue Joseph Leydenbach, L-1947 Luxembourg-Kirchberg;Luxembourg;L-1947;3;Concordant;;Validé automatiquement;2, Rue Joseph Leydenbach 1947 Luxembourg;49.629338063;6.173813107
+ETA-000120;2 Rue Josy Welter, L-7256 Walferdange;Walferdange;L-7256;1;Concordant;;Validé automatiquement;2, Rue Josy Welter 7256 Walferdange;49.65906604;6.131907589
+ETA-000121;2, Rue Valentin Simon, L-2559 Luxembourg-Eich;Luxembourg;L-2559;3;Concordant;;Validé automatiquement;2, Rue Valentin Simon 2559 Luxembourg;49.630914766;6.132565643
+ETA-000122;20-30 Rue D'anvers, 1130 Luxembourg, Luxembourg, 1130 Luxembourg | 5 Rue Edward Steichen, 2540 Luxembourg;Luxembourg;L-1130;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000123;20-30 rue d'Anvers guichet 1 à 5 au rez de chaussé, 1130 Luxembourg | 9, Rue Edward Steichen, 1947 Luxembourg;Luxembourg;L-1130;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000124;20, avenue Guillaume, L-1650 Luxembourg;Luxembourg;L-1650;1;Concordant;;Validé automatiquement;20, Avenue Guillaume 1650 Luxembourg;49.607051933;6.117499019
+ETA-000125;20, avenue Salentiny, L-9080 Ettelbruck;Ettelbruck;L-9080;2;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000126;20, Boulevard Pierre Dupong, L-1430 Luxembourg;Luxembourg;L-1430;4;Concordant;;Validé automatiquement;20, Boulevard Pierre Dupong 1430 Luxembourg;49.605160609;6.110740557
+ETA-000127;20 rue d'Anvers, 1130 Luxembourg | 58 Avenue De La Liberté, 1930 Luxembourg | 9 Rue Edward Steichen, L-2540 Luxembourg;Luxembourg;L-1130;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000128;20, Rue D'anvers, 1130 Luxembourg | 58 Avenue De La Liberté, 1930 Luxembourg | 9 Rue Edward Steichen, 2540 Luxembourg-Neudorf;Luxembourg;L-1130;2;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000129;20 rue de l'Eglise, 7224 Walferdange;Walferdange;L-7224;5;À vérifier manuellement;IMP-000307,IMP-000429,IMP-000461,IMP-000499;Validé automatiquement;20, Rue de l'Eglise 7224 Walferdange;49.658050325;6.132187495
+ETA-000130;20, Rue Dicks, L-1417 Luxembourg;Luxembourg;L-1417;4;Concordant;;Validé automatiquement;20, Rue Dicks 1417 Luxembourg;49.604256869;6.129640602
+ETA-000131;20, Rue Glesener, L-1630 Luxembourg;Luxembourg;L-1630;1;Concordant;;Validé automatiquement;20, Rue Glesener 1630 Luxembourg;49.602310452;6.13055684
+ETA-000132;204, Route D'arlon, 8010 Strassen;Strassen;L-8010;1;Concordant;;Validé automatiquement;204, Route d'Arlon 8010 Strassen;49.621537026;6.065148586
+ETA-000133;207 Route De Luxembourg, L-7374 Bofferdange;Lorentzweiler;L-7374;1;Concordant;;Validé automatiquement;207, Route de Luxembourg 7374 Bofferdange;49.687952129;6.140147069
+ETA-000134;209 Route de Longwy, L-1941 Luxembourg-Merl;Luxembourg;L-1941;1;Concordant;;Validé automatiquement;209, Route de Longwy 1941 Luxembourg;49.605694832;6.102373251
+ETA-000135;21, Boulevard Friedrich Wilhelm Raiffeisen, Tour Z, 2411 Luxembourg;Luxembourg;L-2411;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000136;21, route de luxembourg, L-3253 Bettembourg;Bettembourg;L-3253;1;Concordant;;Validé automatiquement;21, Route de Luxembourg 3253 Bettembourg;49.520273231;6.099449897
+ETA-000137;21, Rue Bourschterbaach, 9018 Warken;Ettelbruck;L-9018;1;Concordant;;Validé automatiquement;21, Rue Bourschterbaach 9018 Warken;49.860324498;6.09062555
+ETA-000138;21 Rue Jean L'aveugle, 1148 Luxembourg;Luxembourg;L-1148;1;Concordant;;Validé automatiquement;21, Rue Jean l'Aveugle 1148 Luxembourg;49.617776942;6.121662707
+ETA-000139;217 Rue Albert Unden, 2652 Luxembourg;Luxembourg;L-2652;1;Concordant;;Validé automatiquement;217, Rue Albert Unden 2652 Luxembourg;49.628003512;6.114600299
+ETA-000140;219 Rue De Beggen, 1221 Luxembourg;Luxembourg;L-1221;1;Concordant;;Validé automatiquement;219, Rue de Beggen 1221 Luxembourg;49.644987149;6.128517469
+ETA-000141;22, Boulevard Royal - Hamilius, 2449 Luxembourg;Luxembourg;L-2449;1;Concordant;;Validé automatiquement;22, Boulevard Royal 2449 Luxembourg;49.611377677;6.125641586
+ETA-000142;22 Rue Sigismond, 2537 Luxembourg;Luxembourg;L-2537;1;Concordant;;Validé automatiquement;22, Rue Sigismond 2537 Luxembourg;49.597288217;6.137055575
+ETA-000143;23 Route d´Arlon, 8009 Strassen;Strassen;L-8009;7;Variante typographique;IMP-000264,IMP-000363,IMP-000401,IMP-000414,IMP-000503,IMP-000618;Validé automatiquement;23, Route d'Arlon 8009 Strassen;49.61703558;6.092027749
+ETA-000144;23 Rue Aldringen (5ième étage), 1118 Luxembourg;Luxembourg;L-1118;1;Concordant;;Validé automatiquement;23, Rue Aldringen 1118 Luxembourg;49.611427673;6.126990551
+ETA-000145;234, Val Des Bons-Malades, 2121 Luxembourg;Luxembourg;L-2121;1;Concordant;;Validé automatiquement;234, Val des Bons-Malades 2121 Luxembourg;49.628310088;6.151743448
+ETA-000146;235, Val Des Bons-Malades, 2121 Luxembourg;Luxembourg;L-2121;1;Concordant;;Validé automatiquement;235, Val des Bons-Malades 2121 Luxembourg;49.628698131;6.151906775
+ETA-000147;237, Route De Thionville, 5885 Howald;Hesperange;L-5885;1;Concordant;;Validé automatiquement;237, Route de Thionville 5885 Howald;49.584524684;6.14638664
+ETA-000148;239 Route D'arlon, 8011 Strassen;Strassen;L-8011;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000149;239b, Route D'arlon, 8011 Strassen;Strassen;L-8011;1;Concordant;;Validé automatiquement;239B, Route d'Arlon 8011 Strassen;49.619691543;6.068996161
+ETA-000150;24 Route D'arlon, 8008 Strassen;Strassen;L-8008;1;Concordant;;Validé automatiquement;24, Route d'Arlon 8008 Strassen;49.617574624;6.09182482
+ETA-000151;24, Rue Auguste Liesch, L-3474 Dudelange;Dudelange;L-3474;1;Concordant;;Validé automatiquement;24, Rue Auguste Liesch 3474 Dudelange;49.475404008;6.081782797
+ETA-000152;24 Rue De L'école, 5414 Canach;Lenningen;L-5414;1;Concordant;;Validé automatiquement;24, Rue de l'Ecole 5414 Canach;49.610382409;6.322685353
+ETA-000153;24, rue Prince Henri, L-9047 Ettelbruck;Ettelbruck;L-9047;1;Concordant;;Validé automatiquement;24, Rue Prince Henri 9047 Ettelbruck;49.847053675;6.10480737
+ETA-000154;241b, Route D'arlon, 8011 Strassen;Strassen;L-8011;1;Concordant;;Validé automatiquement;241B, Route d'Arlon 8011 Strassen;49.619850385;6.068577221
+ETA-000155;259, Route D'arlon, 1150 Luxembourg;Luxembourg;L-1150;1;Concordant;;Validé automatiquement;259, Route d'Arlon 1150 Luxembourg;49.615684401;6.101125365
+ETA-000156;259, route d'Arlon, L-1150 Luxembourg - Belair;Luxembourg;L-1150;2;À vérifier manuellement;IMP-000561;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000157;259 Route D'Arlon ( En face du CHL), 1150 Luxembourg-Belair;Luxembourg;L-1150;1;Concordant;;Validé automatiquement;259, Route d'Arlon 1150 Luxembourg;49.615684401;6.101125365
+ETA-000158;259 Route d'Arlon (Immeuble Patrizia, en face du C, 1150 Luxembourg - Belair;Luxembourg;L-1150;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000159;259 Route d'Arlon (Immeuble Patrizia, en face du CHL), 1150 Luxembourg;Luxembourg;L-1150;1;Concordant;;Validé automatiquement;259, Route d'Arlon 1150 Luxembourg;49.615684401;6.101125365
+ETA-000160;26-28 bd J.-F. Kennedy, 4170 Esch-sur-Alzette;Esch-sur-Alzette;L-4170;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000161;26 Rue Du Pont, 9554 Wiltz;Wiltz;L-9554;1;Concordant;;Validé automatiquement;26, Rue du Pont 9554 Wiltz;49.969520352;5.929368409
+ETA-000162;268, Rue De Neudorf, 2222 Luxembourg;Luxembourg;L-2222;3;Variante typographique;IMP-000466;Validé automatiquement;268, Rue de Neudorf 2222 Luxembourg;49.621629291;6.164659387
+ETA-000163;269A, Route d'Arlon, Luxembourg, 1150 Luxembourg;Luxembourg;L-1150;1;Concordant;;Validé automatiquement;269A, Route d'Arlon 1150 Luxembourg;49.615800798;6.100832308
+ETA-000164;27, Rue Du Commerce (1. Etage), 8220 Mamer;Mamer;L-8220;1;Concordant;;Validé automatiquement;27, Rue du Commerce 8220 Mamer;49.628643563;6.021221054
+ETA-000165;27 Rue Jean-Pierre Biermann, 1268 Luxembourg;Luxembourg;L-1268;1;Concordant;;Validé automatiquement;27, Rue Jean-Pierre Biermann 1268 Luxembourg;49.618803699;6.168046521
+ETA-000166;27 Rue Principale, L-5241 Sandweiler;Sandweiler;L-5241;3;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000167;28, Rue De L'église, 4732 Pétange;Pétange;L-4732;1;Concordant;;Validé automatiquement;28, Rue de l'Eglise 4732 Pétange;49.558363053;5.87557599
+ETA-000168;28, rue du Kockelberg, L-9252 Diekirch;Diekirch;L-9252;1;Concordant;;Validé automatiquement;28, Rue du Kockelberg 9252 Diekirch;49.869370939;6.150943621
+ETA-000169;281b, Route d'Arlon, L-8011 Strassen;Strassen;L-8011;1;Concordant;;Validé automatiquement;281B, Route d'Arlon 8011 Strassen;49.621173009;6.064175429
+ETA-000170;29-31 Rue Evy Friedrich, 1552 Luxembourg;Luxembourg;L-1552;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000171;29-31, rue Maximilien, 6463 Echternach;Echternach;L-6463;2;Variante typographique;IMP-000160;Adresse ou numéro ambigu;;;
+ETA-000172;29 Route D'esch, 3230 Bettembourg;Bettembourg;L-3230;1;Concordant;;Validé automatiquement;29, Route d'Esch 3230 Bettembourg;49.518542422;6.098583674
+ETA-000173;29 Rue Evy Friedrich, 1552 Luxembourg-Gasperich;Luxembourg;L-1552;1;Concordant;;Validé automatiquement;29, Rue Evy Friedrich 1552 Luxembourg;49.591754755;6.11562867
+ETA-000174;2a, Ënnert Dem Bierg, 5244 Sandweiler;Sandweiler;L-5244;4;Concordant;;Validé automatiquement;2A, Ennert dem Bierg 5244 Sandweiler;49.617076688;6.214312121
+ETA-000175;2a Rue Adolphe Diederich, 5820 Fentange;Hesperange;L-5820;1;Concordant;;Validé automatiquement;2A, Rue Adolphe Diederich 5820 Fentange;49.568483524;6.152369152
+ETA-000176;2a Rue De Buerden, 9019 Warken;Ettelbruck;L-9019;1;Concordant;;Validé automatiquement;2A, Rue de Buerden 9019 Warken;49.854703976;6.092717149
+ETA-000177;2A, Rue de l'Église, 7481 Tuntange;Helperknapp;L-7481;4;Concordant;;Validé automatiquement;2A, Rue de l'Eglise 7481 Tuntange;49.717453242;6.00990173
+ETA-000178;2a, Rue De L'ouest, 2273 Luxembourg;Luxembourg;L-2273;1;Concordant;;Validé automatiquement;2A, Rue de l'Ouest 2273 Luxembourg;49.614671239;6.097123777
+ETA-000179;2A Rue Des Capucins, (2e étage), Luxembourg, 1313 Luxembourg;Luxembourg;L-1313;1;Concordant;;Validé automatiquement;2A, Rue des Capucins 1313 Luxembourg;49.611615947;6.129770699
+ETA-000180;2b, rue GrandeDuchesse Charlotte, L-9013 Ettelbruck;Ettelbruck;L-9013;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000181;3-5, Rue Du Fossé, 3ème étage, 1536 Luxembourg;Luxembourg;L-1536;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000182;3, Beim Schlass 1er étage ascenseur, 8058 Bertrang, 8058 Bertrange;Bertrange;L-8058;1;Concordant;;Validé automatiquement;3, Beim Schlass 8058 Bertrange;49.611335564;6.049214533
+ETA-000183;3 Beim Schlass, 8058 Bertrange;Bertrange;L-8058;1;Concordant;;Validé automatiquement;3, Beim Schlass 8058 Bertrange;49.611335564;6.049214533
+ETA-000184;3, rue de l'Ordre de la Couronne de Chêne, L-1361 Luxembourg;Luxembourg;L-1361;1;Concordant;;Validé automatiquement;3, Rue de l'Ordre de la Couronne de Chêne 1361 Luxembourg;49.623566694;6.127287248
+ETA-000185;3, Rue Des Capucins, 1313 Luxembourg;Luxembourg;L-1313;2;Variante typographique;IMP-000241;Validé automatiquement;3, Rue des Capucins 1313 Luxembourg;49.611710641;6.129562484
+ETA-000186;3 Rue Lucien Thiel, 2607 Luxembourg;Luxembourg;L-2607;2;Concordant;;Validé automatiquement;3, Rue Lucien Thiel 2607 Luxembourg;49.637426136;6.163164979
+ETA-000187;30 avenue Grande-Duchesse Charlotte, L-3440 Dudelange;Dudelange;L-3440;1;Concordant;;Validé automatiquement;30, Avenue Grande-Duchesse Charlotte 3440 Dudelange;49.482000906;6.083899305
+ETA-000188;30, route de Luxembourg, L-5670 Altwies;Mondorf-les-Bains;L-5670;1;Concordant;;Validé automatiquement;30, Route de Luxembourg 5670 Altwies;49.509579516;6.250495086
+ETA-000189;30, Route De Luxembourg, 7372 Lorentzweiler;Lorentzweiler;L-7372;1;Concordant;;Validé automatiquement;30, Route de Luxembourg 7372 Lorentzweiler;49.705212789;6.13839269
+ETA-000190;30, Rue André Duchscher, L-6434 Echternach;Echternach;L-6434;1;Concordant;;Validé automatiquement;30, Rue André Duchscher 6434 Echternach;49.812255356;6.417378808
+ETA-000191;30, Rue de l'Industrie, 8069 Strassen;Strassen;L-8069;1;Concordant;;Validé automatiquement;30, Rue de l'Industrie 8069 Strassen;49.612004583;6.075488392
+ETA-000192;30 Rue Goethe, 1637 Luxembourg | Cabinet 12, Clinique Bohler, 5, rue Edward Steiche, L-2540 Luxembourg-Kirchberg;Luxembourg;L-1637;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000193;31, Fort Elisabeth (place de Paris), L-1463 Luxembourg-Gare;Luxembourg;L-1463;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000194;31, Rue Neuve, 3781 Kayl;Kayl;L-3781;1;Concordant;;Validé automatiquement;31, Rue Neuve 3781 Tétange;49.480097557;6.039737808
+ETA-000195;31 Rue Neuve, L-3781 Tétange;Kayl;L-3781;3;À vérifier manuellement;IMP-000074,IMP-000097;Validé automatiquement;31, Rue Neuve 3781 Tétange;49.480097557;6.039737808
+ETA-000196;31 Rue Principale, L-5480 Wormeldange;Wormeldange;L-5480;1;Concordant;;Validé automatiquement;31, Rue Principale 5480 Wormeldange;49.605685059;6.401268819
+ETA-000197;32, Grand-Rue, (first floor, above the pharmacy Go, 1660 Luxembourg;Luxembourg;L-1660;1;Concordant;;Validé automatiquement;32, Grand-Rue 1660 Luxembourg;49.612062214;6.130397552
+ETA-000198;32, Rue Stade John F. Kennedy, L-3502 Dudelange;Dudelange;L-3502;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000199;32a Rue Des Carrières, 1316 Luxembourg;Luxembourg;L-1316;4;Concordant;;Validé automatiquement;32A, Rue des Carrières 1316 Luxembourg;49.628813922;6.169430742
+ETA-000200;32b, Rue Antoine-François Van Der Meulen, 2152 Luxembourg;Luxembourg;L-2152;1;Concordant;;Validé automatiquement;32B, Rue Antoine-François Van Der Meulen 2152 Luxembourg;49.638961278;6.140766394
+ETA-000201;32b Rue Robert Schuman, 5751 Frisange;Frisange;L-5751;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000202;33 Allée Scheffer, 2520 Luxembourg-Limpertsberg;Luxembourg;L-2520;1;Concordant;;Validé automatiquement;33, Allée Scheffer 2520 Luxembourg;49.617779126;6.123507325
+ETA-000203;33, Rue du Castel, 4525 Niederkorn;Differdange;L-4525;2;Concordant;;Validé automatiquement;33, Rue du Castel 4525 Niederkorn;49.539529867;5.892485025
+ETA-000204;33, Rue Du Dix Octobre, 7243 Bereldange;Walferdange;L-7243;2;Concordant;;Validé automatiquement;33, Rue du Dix Octobre 7243 Bereldange;49.652345167;6.125016917
+ETA-000205;34-36, rue Glesener, 1630 Luxembourg, Luxembourg, 1630 Luxembourg;Luxembourg;L-1630;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000206;34, Avenue de la Liberté, L-1930 Luxembourg-Gare;Luxembourg;L-1930;5;Concordant;;Validé automatiquement;34, Avenue de la Liberté 1930 Luxembourg;49.603908265;6.130425531
+ETA-000207;34, Rue Glesener, 1630 Luxembourg;Luxembourg;L-1630;1;Concordant;;Validé automatiquement;34, Rue Glesener 1630 Luxembourg;49.602010136;6.129493371
+ETA-000208;35, avenue Pasteur, L-2311 Luxembourg;Luxembourg;L-2311;1;Concordant;;Validé automatiquement;35, Avenue Pasteur 2311 Luxembourg;49.618857113;6.121800608
+ETA-000209;35, Route De Diekirch, 7220 Helmsange;Walferdange;L-7220;5;Variante typographique;IMP-000008,IMP-000073,IMP-000125;Validé automatiquement;35, Route de Diekirch 7220 Helmsange;49.661867431;6.132839013
+ETA-000210;36, Rue Du Stade, 6725 Grevenmacher;Grevenmacher;L-6725;1;Concordant;;Validé automatiquement;36, Rue du Stade 6725 Grevenmacher;49.687044788;6.449984725
+ETA-000211;36, Rue Sainte Zithe, L-2763 Luxembourg | 9, rue Edward Steichen, 2540 Luxembourg-Kirchberg;Luxembourg;L-2763;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000212;37 Route De Luxembourg, 6475 Echternach;Echternach;L-6475;2;Variante typographique;IMP-000406;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000213;37A, route de Luxembourg / 9, route de Diekirch, L-6430 Echternach;Echternach;L-6430;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000214;38-40 rue Sainte Zithe, 2763 Luxembourg;Luxembourg;L-2763;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000215;38, Rue Auguste Letellier, 1 er Étage, 1932 Luxembourg | 5, Rue Edward Steichen, 2540 Luxembourg;Luxembourg;L-1932;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000216;38, rue Auguste Letellier, L-1932 Luxembourg-Bonnevoie;Luxembourg;L-1932;1;Concordant;;Validé automatiquement;38, Rue Auguste Letellier 1932 Luxembourg;49.594258547;6.139557868
+ETA-000217;38, Rue d'Arlon, L-8552 Oberpallen;Beckerich;L-8552;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000218;38 Rue D'audun, 4018 Esch-sur-Alzette;Esch-sur-Alzette;L-4018;1;Concordant;;Validé automatiquement;38, Rue d'Audun 4018 Esch-sur-Alzette;49.489378659;5.977411922
+ETA-000219;4-6 Avenue De La Gare, 1610 Luxembourg;Luxembourg;L-1610;2;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000220;4, allée Léopold Goebel, L-1635 Luxembourg;Luxembourg;L-1635;4;Variante typographique;IMP-000469;Validé automatiquement;4, Allée Léopold Goebel 1635 Luxembourg;49.612850293;6.112617782
+ETA-000221;4, Haaptstroos, L-9365 Eppeldorf;Vallée de l'Ernz;L-9365;1;Concordant;;Validé automatiquement;4, Haaptstrooss 9365 Eppeldorf;49.844118858;6.247109428
+ETA-000222;4, Place des Villes Jumelées, L-5627 Mondorf-les-Bains;Mondorf-les-Bains;L-5627;1;Concordant;;Validé automatiquement;4, Place des Villes Jumelées 5627 Mondorf-les-Bains;49.505943158;6.276398815
+ETA-000223;4 Route De Burange, 3429 Dudelange;Dudelange;L-3429;1;Concordant;;Validé automatiquement;4, Route de Burange 3429 Dudelange;49.48267877;6.083696157
+ETA-000224;4, rue Barblé, L-1210 Luxembourg;Luxembourg;L-1210;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000225;4, Rue de l'Ecole, L-4103 Esch-sur-Alzette;Esch-sur-Alzette;L-4103;2;Concordant;;Validé automatiquement;4, Rue de l'Ecole 4103 Esch-sur-Alzette;49.49708397;5.98490752
+ETA-000226;4, Rue De La Poste, 4939 Bascharage;Käerjeng;L-4939;1;Concordant;;Validé automatiquement;4, Rue de la Poste 4939 Bascharage;49.567682054;5.910962667
+ETA-000227;4 Rue Du Brill, 4041 Esch-sur-Alzette;Esch-sur-Alzette;L-4041;1;Concordant;;Validé automatiquement;4, Rue du Brill 4041 Esch-sur-Alzette;49.490675117;5.979719132
+ETA-000228;4 Rue John Ernest Dolibois, 4573 Differdange;Differdange;L-4573;2;Concordant;;Validé automatiquement;4, Rue John Ernest Dolibois 4573 Differdange;49.522144254;5.893743774
+ETA-000229;40 Rue Du Commerce, 3450 Dudelange;Dudelange;L-3450;1;Concordant;;Validé automatiquement;40, Rue du Commerce 3450 Dudelange;49.477715918;6.085529488
+ETA-000230;41, Avenue de la Gare, L-1611 Luxembourg;Luxembourg;L-1611;4;Concordant;;Validé automatiquement;41, Avenue de la Gare 1611 Luxembourg;49.602637742;6.133326142
+ETA-000231;41, Route d'Echternach, L-6250 Scheidgen;Consdorf;L-6250;1;Concordant;;Validé automatiquement;41, Route d'Echternach 6250 Scheidgen;49.782774199;6.362636
+ETA-000232;4174 Esch-sur-Alzette;Esch-sur-Alzette;L-4174;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000233;41B, rue des Romains, L-8041 Strassen;Strassen;L-8041;1;Concordant;;Validé automatiquement;41B, Rue des Romains 8041 Strassen;49.618587628;6.07442507
+ETA-000234;42 Rue Guillaume Capus, 4071 Esch-sur-Alzette;Esch-sur-Alzette;L-4071;1;Concordant;;Validé automatiquement;42, Rue Guillaume Capus 4071 Esch-sur-Alzette;49.508371593;5.972771606
+ETA-000235;43 Route D'arlon, 8009 Strassen;Strassen;L-8009;1;Concordant;;Validé automatiquement;43, Route d'Arlon 8009 Strassen;49.617574466;6.089438126
+ETA-000236;43 Rue De Mersch, 9155 Grosbous;Groussbus-Wal;L-9155;1;Concordant;;Validé automatiquement;43, Rue de Mersch 9155 Grosbous;49.82166093;5.970249544
+ETA-000237;44, Route d'Esch, 1470 Luxembourg;Luxembourg;L-1470;1;Concordant;;Validé automatiquement;44, Route d'Esch 1470 Luxembourg;49.60353447;6.120546941
+ETA-000238;44, Rue D'Anvers, 1130 Luxembourg, 2ème étage, Bât, 1130 Luxembourg;Luxembourg;L-1130;1;Concordant;;Validé automatiquement;44, Rue d'Anvers 1130 Luxembourg;49.602818252;6.128222791
+ETA-000239;44, Rue D'anvers, 1130 Luxembourg,2ème étage, Bâti, 1130 Luxembourg;Luxembourg;L-1130;1;Concordant;;Validé automatiquement;44, Rue d'Anvers 1130 Luxembourg;49.602818252;6.128222791
+ETA-000240;44, rue d'Anvers, L-1130 Luxembourg-Gare;Luxembourg;L-1130;1;Concordant;;Validé automatiquement;44, Rue d'Anvers 1130 Luxembourg;49.602818252;6.128222791
+ETA-000241;44, Rue d'Anvers (2ᵉ étage), 1130 Luxembourg | 9, Rue Edward Steichen, 2540 Luxembourg-Neudorf;Luxembourg;L-1130;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000242;46 Rue D'anvers, 1130 Luxembourg;Luxembourg;L-1130;1;Concordant;;Validé automatiquement;46, Rue d'Anvers 1130 Luxembourg;49.602744897;6.128061892
+ETA-000243;46, Rue d'Anvers, L-1130 Luxembourg-Gare;Luxembourg;L-1130;1;Concordant;;Validé automatiquement;46, Rue d'Anvers 1130 Luxembourg;49.602744897;6.128061892
+ETA-000244;46 Rue De La Chapelle, 3617 Kayl;Kayl;L-3617;3;Concordant;;Validé automatiquement;46, Rue de la Chapelle 3617 Kayl;49.48546907;6.032431095
+ETA-000245;47 Avenue Guillaume, 1651 Luxembourg;Luxembourg;L-1651;1;Concordant;;Validé automatiquement;47, Avenue Guillaume 1651 Luxembourg;49.607214039;6.114564813
+ETA-000246;47 Rue Du Golf, 1638 Senningerberg;Niederanven;L-1638;3;Concordant;;Validé automatiquement;47, Rue du Golf 1638 Senningerberg;49.646835764;6.2240595
+ETA-000247;47 Rue Jean Jaurès, 3490 Dudelange;Dudelange;L-3490;1;Concordant;;Validé automatiquement;47, Rue Jean Jaurès 3490 Dudelange;49.480122701;6.08216086
+ETA-000248;476 route de Thionville, 5886 Hesperange;Hesperange;L-5886;13;Concordant;;Validé automatiquement;476, Route de Thionville 5886 Hesperange;49.571339369;6.159340718
+ETA-000249;5 A Laangert, 8117 Bertrange;Bertrange;L-8117;1;Concordant;;Validé automatiquement;5, A Laangert 8117 Bertrange;49.599701659;6.063684976
+ETA-000250;5 Avenue Gaston Diderich, L-1420 Luxembourg;Luxembourg;L-1420;1;Concordant;;Validé automatiquement;5, Avenue Gaston Diderich 1420 Luxembourg;49.60996948;6.118039511
+ETA-000251;5, beim Schlass, L-8059 Bertrange;Bertrange;L-8059;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000252;5 beim schlass, rue de la fontaine , L-8058 Bertra, 8058 Bertrange;Bertrange;L-8058;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000253;5, Heienhaff Rez-de-chaussée, Entrée A, 1736 Senningerberg;Niederanven;L-1736;8;Concordant;;Validé automatiquement;5, Heienhaff 1736 Senningerberg;49.636153182;6.22015485
+ETA-000254;5, Rue de l'Eglise, 7224 Walferdange;Walferdange;L-7224;1;Concordant;;Validé automatiquement;5, Rue de l'Eglise 7224 Walferdange;49.657734122;6.132686721
+ETA-000255;5 rue de la libération, 7347 Steinsel;Steinsel;L-7347;4;Concordant;;Validé automatiquement;5, Rue de la Libération 7347 Steinsel;49.675479339;6.12554111
+ETA-000256;5 Rue Du Commerce, 3450 Dudelange;Dudelange;L-3450;3;Concordant;;Validé automatiquement;5, Rue du Commerce 3450 Dudelange;49.479212754;6.086160961
+ETA-000257;5, Rue Du Pont, 9268 Diekirch;Diekirch;L-9268;1;Concordant;;Validé automatiquement;5, Rue du Pont 9268 Diekirch;49.867178971;6.160591546
+ETA-000258;5, rue Edward Steichen, L-2540 Luxembourg;Luxembourg;L-2540;17;À vérifier manuellement;IMP-000001,IMP-000003,IMP-000033,IMP-000046,IMP-000070,IMP-000111,IMP-000218,IMP-000250,IMP-000350,IMP-000434,IMP-000598,IMP-000601;Validé automatiquement;5, Rue Edward Steichen 2540 Luxembourg;49.633432879;6.177048747
+ETA-000259;5, rue Edward Steichen, L-2540 Luxembourg-Kirchberg;Luxembourg;L-2540;1;Concordant;;Validé automatiquement;5, Rue Edward Steichen 2540 Luxembourg;49.633432879;6.177048747
+ETA-000260;5, rue Jean-Baptiste Gellé, L-1620 Luxembourg;Luxembourg;L-1620;3;Concordant;;Validé automatiquement;5, Rue Jean-Baptiste Gellé 1620 Luxembourg;49.5970453;6.140627818
+ETA-000261;5, Rue Léandre Lacroix, 1913 Luxembourg;Luxembourg;L-1913;2;Concordant;;Validé automatiquement;5, Rue Léandre Lacroix 1913 Luxembourg;49.621880094;6.113631074
+ETA-000262;5 Rue Michel Weber, 9089 Ettelbruck;Ettelbruck;L-9089;1;Concordant;;Validé automatiquement;5, Rue Michel Weber 9089 Ettelbruck;49.845488946;6.094059771
+ETA-000263;50 Avenue De La Liberté, L-1930 Luxembourg-Gare;Luxembourg;L-1930;1;Concordant;;Validé automatiquement;50, Avenue de la Liberté 1930 Luxembourg;49.60271348;6.131527995
+ETA-000264;50, Avenue Grande-Duchesse Charlotte, 3440 Dudelange;Dudelange;L-3440;1;Concordant;;Validé automatiquement;50, Avenue Grande-Duchesse Charlotte 3440 Dudelange;49.481108722;6.084449289
+ETA-000265;50 Boulevard J-F Kennedy, L-4170 Esch-sur-Alzette;Esch-sur-Alzette;L-4170;1;Concordant;;Validé automatiquement;50, Boulevard J.F. Kennedy 4170 Esch-sur-Alzette;49.494103335;5.984583451
+ETA-000266;50, Route Du Vin, 5447 Schwebsange;Schengen;L-5447;3;Concordant;;Validé automatiquement;50, Route du Vin 5447 Schwebsingen;49.51161743;6.35633056
+ETA-000267;50, rue de Luxembourg, L-8077 Bertrange;Bertrange;L-8077;1;Concordant;;Validé automatiquement;50, Rue de Luxembourg 8077 Bertrange;49.611674394;6.057324103
+ETA-000268;51, Avenue Pasteur, 2311 Luxembourg;Luxembourg;L-2311;3;À vérifier manuellement;IMP-000183,IMP-000521;Validé automatiquement;51, Avenue Pasteur 2311 Luxembourg;49.619195615;6.120192428
+ETA-000269;51 Chemin Rouge, L-4480 Belvaux;Sanem;L-4480;1;Concordant;;Validé automatiquement;51, Chemin Rouge 4480 Belvaux;49.512756363;5.93972575
+ETA-000270;52, Avenue Pasteur, 2310 Luxembourg;Luxembourg;L-2310;1;Concordant;;Validé automatiquement;52, Avenue Pasteur 2310 Luxembourg;49.620118782;6.119797026
+ETA-000271;52 Boulevard John F. Kennedy, 4170 Esch-sur-Alzette;Esch-sur-Alzette;L-4170;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000272;52 Boulevard John Fitzgerald Kennedy, 4170 Esch-sur-Alzette;Esch-sur-Alzette;L-4170;3;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000273;52, Esplanade de la Moselle, L-6637 Wasserbillig;Mertert;L-6637;1;Concordant;;Validé automatiquement;52, Esplanade de la Moselle 6637 Wasserbillig;49.709808264;6.494308111
+ETA-000274;53, Avenue Pasteur, 2311 Luxembourg;Luxembourg;L-2311;2;Concordant;;Validé automatiquement;53, Avenue Pasteur 2311 Luxembourg;49.619497379;6.120391144
+ETA-000275;53, avenue Pasteur Luxembourg, L-2311 Luxembourg-Limpertsberg;Luxembourg;L-2311;1;Concordant;;Validé automatiquement;53, Avenue Pasteur 2311 Luxembourg;49.619497379;6.120391144
+ETA-000276;53, rue Principale, L-5367 Schuttrange;Schuttrange;L-5367;1;Concordant;;Validé automatiquement;53, Rue Principale 5367 Schuttrange;49.620321834;6.264733836
+ETA-000277;55-57, Avenue Pasteur, L-2311 Luxembourg-Limpertsberg;Luxembourg;L-2311;3;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000278;55 Avenue De La Liberté, 1931 Luxembourg;Luxembourg;L-1931;1;Concordant;;Validé automatiquement;55, Avenue de la Liberté 1931 Luxembourg;49.602238538;6.132433381
+ETA-000279;55a, Avenue Pasteur, 2311 Luxembourg;Luxembourg;L-2311;1;Concordant;;Validé automatiquement;55A, Avenue Pasteur 2311 Luxembourg;49.619280133;6.119577628
+ETA-000280;56 Avenue François Clément, 5612 Mondorf-les-Bains;Mondorf-les-Bains;L-5612;2;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000281;56, Boulevard John F. Kennedy, 4170 Esch-sur-Alzette;Esch-sur-Alzette;L-4170;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000282;56 Rue D'anvers, 1130 Luxembourg;Luxembourg;L-1130;7;Concordant;;Validé automatiquement;56, Rue d'Anvers 1130 Luxembourg;49.602580099;6.127686708
+ETA-000283;59 Rue De Wormeldange, 6180 Gonderange;Junglinster;L-6180;2;Concordant;;Validé automatiquement;59, Rue de Wormeldange 6180 Gonderange;49.6926661;6.255097771
+ETA-000284;5B, Rue François Hogenberg, 1735 Luxembourg-Gasperich;Luxembourg;L-1735;2;Concordant;;Validé automatiquement;5B, Rue François Hogenberg 1735 Luxembourg;49.587114214;6.12310874
+ETA-000285;6 Avenue Du 10 Septembre, 2550 Luxembourg;Luxembourg;L-2550;2;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000286;6 Avenue Du 10 Septembre, J459+RF, J459+RF, 2550 Luxembourg;Luxembourg;L-2550;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000287;6 Avenue Lucien Salentiny, 9080 Ettelbruck;Ettelbruck;L-9080;1;Concordant;;Validé automatiquement;6, Avenue Lucien Salentiny 9080 Ettelbruck;49.848548535;6.102269651
+ETA-000288;6 Place Virchow, 2671 Luxembourg;Luxembourg;L-2671;2;Concordant;;Validé automatiquement;6, Place Virchow 2671 Luxembourg;49.602328724;6.13951182
+ETA-000289;6, route d'Echternach, L-6580 Rosport;Rosport-Mompach;L-6580;1;Concordant;;Validé automatiquement;6, Route d'Echternach 6580 Rosport;49.80475672;6.503916589
+ETA-000290;6, rte de Larochette, L-9254 Diekirch;Diekirch;L-9254;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000291;6, Rue Leonardo Da Vinci, 2681 Luxembourg;Luxembourg;L-2681;1;Concordant;;Validé automatiquement;6, Rue Leonardo Da Vinci 2681 Luxembourg;49.582232142;6.120710756
+ETA-000292;62, Rue De Luxembourg, 8440 Steinfort;Steinfort;L-8440;2;Concordant;;Validé automatiquement;62, Rue de Luxembourg 8440 Steinfort;49.659299024;5.925375138
+ETA-000293;62A Grand-Rue, L- 3394 Roeser;Roeser;L-3394;3;Concordant;;Validé automatiquement;62A, Grand-Rue 3394 Roeser;49.53942913;6.144127075
+ETA-000294;66, GrandRue, L-9051 Ettelbruck;Ettelbruck;L-9051;1;Concordant;;Validé automatiquement;66, Grand-Rue 9051 Ettelbruck;49.847008409;6.100239133
+ETA-000295;67, Rue De Belvaux, 4025 Esch-sur-Alzette;Esch-sur-Alzette;L-4025;1;Concordant;;Validé automatiquement;67, Rue de Belvaux 4025 Esch-sur-Alzette;49.502265901;5.972235771
+ETA-000296;68, rue du Commerce, L-3450 Dudelange;Dudelange;L-3450;1;Concordant;;Validé automatiquement;68, Rue du Commerce 3450 Dudelange;49.477182614;6.084254547
+ETA-000297;68, Rue Du Dix Octobre, 7243 Bereldange;Walferdange;L-7243;1;Concordant;;Validé automatiquement;68, Rue du Dix Octobre 7243 Bereldange;49.6506429;6.125107338
+ETA-000298;6A, Rue Ermesinde, 8416 Steinfort;Steinfort;L-8416;5;Variante typographique;IMP-000620;Validé automatiquement;6A, Rue Ermesinde 8416 Steinfort;49.658966554;5.918708546
+ETA-000299;6B Rue Ermesinde, 8416 Steinfort;Steinfort;L-8416;1;Concordant;;Validé automatiquement;6B, Rue Ermesinde 8416 Steinfort;49.658794159;5.918742403
+ETA-000300;7 Avenue De La Gare, 4734 Pétange;Pétange;L-4734;1;Concordant;;Validé automatiquement;7, Avenue de la Gare 4734 Pétange;49.555467539;5.876856597
+ETA-000301;7, Avenue Victor Hugo, 1750 Luxembourg;Luxembourg;L-1750;5;Concordant;;Validé automatiquement;7, Avenue Victor Hugo 1750 Luxembourg;49.618755852;6.124544508
+ETA-000302;7, Grand Rue, L-9050 Ettelbruck;Ettelbruck;L-9050;1;Concordant;;Validé automatiquement;7, Grand-Rue 9050 Ettelbruck;49.845405642;6.098314462
+ETA-000303;7, Rue Pierre Federspiel, 1512 Strassen;Strassen;L-1512;1;Concordant;;Validé automatiquement;7, Rue Pierre Federspiel 1512 Luxembourg;49.618068404;6.097205043
+ETA-000304;70, Route D'esch, 1470 Luxembourg;Luxembourg;L-1470;3;Concordant;;Validé automatiquement;70, Route d'Esch 1470 Luxembourg;49.601625113;6.119843525
+ETA-000305;70 Rue Dr Klein, 9054 Ettelbruck;Ettelbruck;L-9054;2;Concordant;;Validé automatiquement;70, Rue Dr Klein 9054 Ettelbruck;49.850243585;6.101161115
+ETA-000306;71, Rue de Luxembourg, L-8440 Steinfort;Steinfort;L-8440;1;Concordant;;Validé automatiquement;71, Rue de Luxembourg 8440 Steinfort;49.659804584;5.922421117
+ETA-000307;73 Boulevard De La Fraternité, 1541 Luxembourg;Luxembourg;L-1541;2;Concordant;;Validé automatiquement;73, Boulevard de la Fraternité 1541 Luxembourg;49.599067398;6.140257356
+ETA-000308;74, Avenue de la Faïencerie, L-1510 Luxembourg;Luxembourg;L-1510;4;À vérifier manuellement;IMP-000337,IMP-000541;Validé automatiquement;74, Avenue de la Faïencerie 1510 Luxembourg;49.618854059;6.117916246
+ETA-000309;75 Rue De Mamer, 8081 Bertrange;Bertrange;L-8081;1;Concordant;;Validé automatiquement;75, Rue de Mamer 8081 Bertrange;49.616569159;6.046885495
+ETA-000310;76, rue d'Eich, L-1460 Luxembourg;Luxembourg;L-1460;3;Concordant;;Validé automatiquement;76, Rue d'Eich 1460 Luxembourg;49.631664161;6.13479326
+ETA-000311;76 Rue d'Eich - 5ème étage - Maison Médical Norber, 1460 Luxembourg-Eich;Luxembourg;L-1460;1;Concordant;;Validé automatiquement;76, Rue d'Eich 1460 Luxembourg;49.631664161;6.13479326
+ETA-000312;77 Rue De Luxembourg, 8140 Bridel;Kopstal;L-8140;5;Concordant;;Validé automatiquement;77, Rue de Luxembourg 8140 Bridel;49.65019987;6.083585884
+ETA-000313;79, Route D'esch, 4450 Belvaux;Sanem;L-4450;1;Concordant;;Validé automatiquement;79, Route d'Esch 4450 Belvaux;49.511070497;5.933615051
+ETA-000314;7a Allée Du Carmel, 1354 Luxembourg;Luxembourg;L-1354;5;Concordant;;Validé automatiquement;7A, Allée du Carmel 1354 Luxembourg;49.619686509;6.172215637
+ETA-000315;8-10 rue Prince Jean, L-4825 Rodange;Pétange;L-4825;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000316;8 Avenue De La Faïencerie, 1510 Luxembourg;Luxembourg;L-1510;1;Concordant;;Validé automatiquement;8, Avenue de la Faïencerie 1510 Luxembourg;49.6168594;6.121530614
+ETA-000317;8, Place Benelux, 4027 Esch-sur-Alzette;Esch-sur-Alzette;L-4027;1;Concordant;;Validé automatiquement;8, Place Benelux 4027 Esch-sur-Alzette;49.502559393;5.971025204
+ETA-000318;8, Rue De L'ouest, 2273 Luxembourg;Luxembourg;L-2273;3;Concordant;;Validé automatiquement;8, Rue de l'Ouest 2273 Luxembourg;49.615703424;6.09688901
+ETA-000319;8, Rue De La Fontaine, 8058 Bertrange;Bertrange;L-8058;1;Concordant;;Validé automatiquement;8, Rue de la Fontaine 8058 Bertrange;49.612008206;6.051307578
+ETA-000320;8, Rue De La Fontaine (rez-de-chaussée), 8058 Bertrange;Bertrange;L-8058;1;Concordant;;Validé automatiquement;8, Rue de la Fontaine 8058 Bertrange;49.612008206;6.051307578
+ETA-000321;8 Rue Mil Neuf Cents, 2157 Luxembourg;Luxembourg;L-2157;1;Concordant;;Validé automatiquement;8, Rue Mil Neuf Cents 2157 Luxembourg;49.601199641;6.128677398
+ETA-000322;8 Rue Notre-Dame, L-2240 Luxembourg;Luxembourg;L-2240;2;À vérifier manuellement;IMP-000011;Validé automatiquement;8, Rue Notre-Dame 2240 Luxembourg;49.610087256;6.12939525
+ETA-000323;8 Rue Prince Jean, L-9052 Ettelbruck;Ettelbruck;L-9052;1;Concordant;;Validé automatiquement;8, Rue Prince Jean 9052 Ettelbruck;49.848399903;6.101055923
+ETA-000324;80-85, Rue Waassertrap, L-4408 Belvaux;Sanem;L-4408;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000325;80 Rue Jean Pierre Michels, L-4243 Esch-sur-Alzette;Esch-sur-Alzette;L-4243;1;Concordant;;Validé automatiquement;80, Rue Jean-Pierre Michels 4243 Esch-sur-Alzette;49.503105907;5.981323361
+ETA-000326;82, Rue De Luxembourg, 8140 Bridel;Kopstal;L-8140;1;Concordant;;Validé automatiquement;82, Rue de Luxembourg 8140 Bridel;49.655354807;6.082939677
+ETA-000327;85 route de Thionville, L-2611 Luxembourg;Luxembourg;L-2611;1;Concordant;;Validé automatiquement;85, Route de Thionville 2611 Luxembourg;49.592217149;6.140291929
+ETA-000328;88, rue du Cimetière, 1338 Luxembourg;Luxembourg;L-1338;2;Concordant;;Validé automatiquement;88, Rue du Cimetière 1338 Luxembourg;49.591878142;6.141376823
+ETA-000329;88 Rue Du Cimetière (résidence New York), 1338 Luxembourg;Luxembourg;L-1338;1;Concordant;;Validé automatiquement;88, Rue du Cimetière 1338 Luxembourg;49.591878142;6.141376823
+ETA-000330;88 Rue Du Cimetière, Résidence New York étage -1, 1338 Luxembourg;Luxembourg;L-1338;2;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000331;89 Parc D'activités Capellen, 8308 Capellen | 89, Parc D'activités Capellen West Side Village Bâ, 8308 Capellen;Mamer;L-8308;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000332;89 Parc d'Activités Capellen (West Side Village Bâ, 8308 Mamer;Mamer;L-8308;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000333;89 Parc d'Activités Capellen (West Side Village Bâ, 8308 Mamer | 89 Parc d'Activités Capellen, 8308 Mamer;Mamer;L-8308;2;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000334;89 Route De Longwy, 8080 Bertrange;Bertrange;L-8080;1;Concordant;;Validé automatiquement;89, Route de Longwy 8080 Bertrange;49.600680367;6.06737633
+ETA-000335;9, Place Abbé P.J. Charles Mullendorff, L-2179 Luxembourg;Luxembourg;L-2179;1;Concordant;;Validé automatiquement;9, Place Abbé P.J. Charles Mullendorff 2179 Luxembourg;49.636234477;6.165529273
+ETA-000336;9 Place De L'hôtel De Ville, 3590 Dudelange;Dudelange;L-3590;1;Concordant;;Validé automatiquement;9, Place de l'Hôtel de Ville 3590 Dudelange;49.47947104;6.084127782
+ETA-000337;9, Rue De Brabant, 9213 Diekirch;Diekirch;L-9213;2;À vérifier manuellement;IMP-000534;Validé automatiquement;9, Rue de Brabant 9213 Diekirch;49.869764482;6.159599357
+ETA-000338;9, rue de Welscheid, L-9090 Warken;Ettelbruck;L-9090;2;Concordant;;Validé automatiquement;9, Rue de Welscheid 9090 Warken;49.853675612;6.092998877
+ETA-000339;9, Rue Edward Steichen, 1947 Luxembourg;Luxembourg;L-1947;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000340;9, rue Edward Steichen, L-2540 Luxembourg;Luxembourg;L-2540;1;Concordant;;Validé automatiquement;9, Rue Edward Steichen 2540 Luxembourg;49.632138279;6.176190557
+ETA-000341;9 Rue Edward Steichen, Hôpital Kirchberg, 9 Rue Ed, L-2540 Luxemborug;Luxembourg;L-2540;1;Concordant;;Validé automatiquement;9, Rue Edward Steichen 2540 Luxembourg;49.632138279;6.176190557
+ETA-000342;9, Rue Pierre Federspiel, L-1512 Luxembourg-Belair;Luxembourg;L-1512;1;Concordant;;Validé automatiquement;9, Rue Pierre Federspiel 1512 Luxembourg;49.618445141;6.097046674
+ETA-000343;91, Rue Adolphe Fischer, 1521 Luxembourg;Luxembourg;L-1521;2;Variante typographique;IMP-000507;Validé automatiquement;91, Rue Adolphe Fischer 1521 Luxembourg;49.601145669;6.127691229
+ETA-000344;92 Rue Des Aubépines, 1145 Luxembourg;Luxembourg;L-1145;1;Concordant;;Validé automatiquement;92, Rue des Aubépines 1145 Luxembourg;49.611046148;6.097746997
+ETA-000345;92, rue des Aubépines, L-1145 Luxembourg-Belair;Luxembourg;L-1145;2;Concordant;;Validé automatiquement;92, Rue des Aubépines 1145 Luxembourg;49.611046148;6.097746997
+ETA-000346;94 Rue Pierre Gansen, 4570 Niederkorn;Differdange;L-4570;1;Concordant;;Validé automatiquement;94, Rue Pierre Gansen 4570 Niederkorn;49.536781692;5.89741762
+ETA-000347;96, bd. De la Pétrusse, L-2320 Luxembourg;Luxembourg;L-2320;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000348;96 Boulevard de la Pétrusse, 2320 Luxembourg;Luxembourg;L-2320;2;Concordant;;Validé automatiquement;96, Boulevard de la Pétrusse 2320 Luxembourg;49.606378157;6.126066827
+ETA-000349;96, Rue Émile Mayrisch, 4240 Esch-sur-Alzette;Esch-sur-Alzette;L-4240;1;Concordant;;Validé automatiquement;96, Rue Emile Mayrisch 4240 Esch-sur-Alzette;49.503300696;5.981819295
+ETA-000350;9A-H Avenue Du Rock'n'roll, 4361 Esch-Belval;Esch-sur-Alzette;L-4361;1;Concordant;;Résultat sans concordance numéro/rue/code postal;;;
+ETA-000351;9b, rue de la Libération, L-8245 Mamer;Mamer;L-8245;1;Concordant;;Validé automatiquement;9B, Rue de la Libération 8245 Mamer;49.627063246;6.030742849
+ETA-000352;Allée Marconi Villa Louvigny, L-2120 Luxembourg;Luxembourg;L-2120;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000353;Avenue Des Bains, L-5610 Mondorf-les-Bains;Mondorf-les-Bains;L-5610;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000354;Caserne Grand-Duc Jean, L-9330 Diekirch;Diekirch;L-9330;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000355;Centre Hospitalier du Nord-CHdN, 120, Avenue Lucien Salentiny, 9080 Ettelbruck;Ettelbruck;L-9080;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000356;CENTRE MEDICAL NORBERT METZ, 76, Rue D'Eich, 76, R, L-1460 Luxembourg;Luxembourg;L-1460;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000357;Currently, no appointments available, 2450 Luxembourg;Luxembourg;L-2450;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000358;Fifth floor/Cinquième étage 76, Rue D'eich, 1460 Luxembourg;Luxembourg;L-1460;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000359;Groupe Urologique Kirchberg | Hôpital Kirchberg - , L-2540 Luxembourg;Luxembourg;L-2540;7;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000360;Immeuble 5 beim Schlass, L-8058 Bertrange;Bertrange;L-8058;2;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000361;Route d'Arlon 27, L-8410 Steinfort;Steinfort;L-8410;1;Concordant;;Adresse ou numéro ambigu;;;
+ETA-000362;Rue Émile Mayrisch, Bâtiment Heichuewen, 4240 Esch-sur-Alzette;Esch-sur-Alzette;L-4240;1;Concordant;;Adresse ou numéro ambigu;;;

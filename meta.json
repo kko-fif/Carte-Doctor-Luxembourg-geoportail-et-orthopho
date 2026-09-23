@@ -1,0 +1,17 @@
+{
+  "version": "V3",
+  "date_collecte": "23/09/2026",
+  "medecins_uniques": 613,
+  "implantations": 621,
+  "etablissements": 362,
+  "relations_specialites": 628,
+  "source_medecins": "Doctena 2026 — collecte non exhaustive",
+  "population_reference": "RNPP 01/07/2026",
+  "urls": {
+    "population": "https://download.data.public.lu/resources/registre-national-des-personnes-physiques-rnpp-population-par-commune-population-per-municipality/20260706-115130/01-07-2026-rnrpp-population-commune.csv",
+    "age": "https://download.data.public.lu/resources/registre-national-des-personnes-physiques-rnpp-pyramide-dage-par-commune-population-age-pyramid-per-municipality/20260706-115133/01-07-2026-rnrpp-pyramide-age-commune.csv",
+    "communes": "https://download.data.public.lu/resources/limites-administratives-du-grand-duche-de-luxembourg/20231123-101528/communes4326.geojson",
+    "geocoder": "https://apiv4.geoportail.lu/geocode/search",
+    "ortho": "https://wms.geoportail.lu/public_map_layers/service"
+  }
+}
